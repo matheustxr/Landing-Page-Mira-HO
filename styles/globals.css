@@ -9,8 +9,8 @@
 }
 
 .bg-section-1{
-  background:  url(../assets/img/olho-cartão.png) no-repeat  center center/ cover;
+  background: #62439a url(../assets/img/olho-cartão.png) no-repeat  center center/ cover;
   background-blend-mode: multiply;
-  opacity: 80% !important;
+  opacity: 85% !important;
   height: 100vh;  
 }
