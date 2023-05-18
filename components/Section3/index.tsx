@@ -5,8 +5,8 @@ import Image from "next/image"
 
 export const Section3 = () => {
   return (
-    <div className="p-40">
-        <h1 className="text-center pb-10 text-5xl text-secondario">Hospital Oftalmológico com <br/> Estrutura de Primeiro Mundo e Valores Acessíveis</h1>
+    <div className="p-40  bg-gradient-to-r from-[#1539f1] to-[#020317] animateGradientX">
+        <h1 className="text-center pb-10 text-5xl text-white">Hospital Oftalmológico com <br/> Estrutura de Primeiro Mundo e Valores Acessíveis</h1>
         <div className="grid grid-cols-3 items-center justify-center gap-3 text-center text-white">
             <div className="flex flex-col items-center justify-center gap-3 rounded-xl bg-[#020317]  p-14">
                 <Image src={Local} alt=""  className="w-60 rounded-full border-4 animate-neon-pulse"/>

@@ -12,9 +12,6 @@ export const Section2 = () => {
                 <iframe className='w-full rounded-xl' height="450" src="https://www.youtube.com/embed/uyFBUvj0XQA" title="Conheça o Mira" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </div>
         </div>
-        <div className='bg-primario h-16 text-primario'>
-            .
-        </div>
     </div>
   )
 }
