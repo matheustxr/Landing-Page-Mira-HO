@@ -12,9 +12,12 @@ export default function Home() {
    <div className="">
       <Section1/>
       <Section2/>
-      <Section3/>
+      <div className='bg-gradient-to-r from-[#1539f1] to-[#020317] animateGradientX'>
+        <Section3/>
+        <Contato/>
+      </div>
+      
       <Section4/>
-      <Contato/>
       <Footer/>
    </div>
   )
