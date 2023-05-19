@@ -8,6 +8,7 @@ import Contato from "@/components/Contato"
 
 
 
+
 export default function Home() {
   return (
    <div className="">
@@ -17,6 +18,7 @@ export default function Home() {
         <Section3/>
         <Contato/>
       </div>
+      
       <Section4/>
       <Section5 />
       <Footer/>
