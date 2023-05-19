@@ -8,7 +8,7 @@ export const Section1 = () => {
   return (
     <div className="flex items-center justify-center h-screen relative text-white ">
       <Video />
-      <div className="w-[90%] lg:w-7/12 flex flex-col gap-5 items-center py-5 px-3 lg:py-10 lg:px-10 lg:items-center absolute backdrop-blur-[2px] bg-[#00000089] rounded">
+      <div className="w-[90%] lg:w-7/12 flex flex-col gap-5 items-center py-5 px-3 lg:py-10 lg:px-10 lg:items-center absolute backdrop-blur-[2px] bg-[#00000089] rounded ">
         <Image src={Logo} alt="Sorridents" className="m-auto w-[200px]" />
 
         

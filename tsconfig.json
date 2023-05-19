@@ -19,6 +19,6 @@
     },
     "moduleResolution": "node"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Section2/index.tsx"],
   "exclude": ["node_modules"]
 }
