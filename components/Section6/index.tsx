@@ -3,7 +3,7 @@ import SobreSallus from "../../assets/img/sobreSallus.png"
 
 export const Section6 = () => {
   return (
-    <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-20  pt-10  lg:p-40  bg-[#020617] text-white">
+    <section className="w-full flex flex-col-reverse lg:flex-row-reverse gap-20  pt-10  lg:p-40  bgFosco text-white">
         <Image className="w-full md:w-2/6 lg:w-3/6 rounded" src={SobreSallus} alt="Sallus"/>
         <div className="flex flex-col flex-1 items-start justify-center text-left lg:text-left px-5">
             <h2 className="pt-10 pb-10 text-3xl font-semiboldgi lg:text-5xl ">Sobre o Grupo Salus</h2>
