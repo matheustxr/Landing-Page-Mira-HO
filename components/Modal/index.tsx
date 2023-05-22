@@ -41,11 +41,11 @@ export default function VideoModal({ videoUrl }: VideoModalProps) {
 
   return (
     <>
-      <button onClick={openModal}>
+      <button onClick={openModal} className="rounded-full border-4 animate-neon-pulse">
         <FontAwesomeIcon
           icon={faCirclePlay}
           beat
-          className="text-[#dc1a83] text-[50px] absolute bottom-[52%] left-[23%] lg:left-[44%] bg-slate-950 rounded-full border-4 animate-neon-pulse"
+          className="text-[#dc1a83] text-[50px] absolute bottom-[52%] left-[23%] lg:left-[44%] bg-slate-950 rounded-full"
         />
       </button>
 
