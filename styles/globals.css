@@ -73,3 +73,8 @@
   border-radius: 18px;
   border: 1px solid #cfcece;
 }
+
+.bgFosco{
+  background-image: url(../assets/img/backgrey.png);
+  background-repeat: repeat;
+}
