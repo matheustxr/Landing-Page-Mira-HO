@@ -12,10 +12,8 @@ export const Section1 = () => {
         <title>Mira Hospital Oftalmológico</title>
       </Head>
       <Video />
-      <div className="w-[90%] lg:w-7/12 flex flex-col gap-5 items-center py-5 px-3 lg:py-10 lg:px-10 lg:items-center absolute backdrop-blur-[2px] bg-[#00000089] rounded ">
-        <Image src={Logo} alt="Sorridents" className="m-auto w-[200px]" />
-
-        
+      <div className="w-full h-full flex flex-col gap-5 items-center py-5 px-3 lg:py-10 lg:px-10 lg:items-center absolute backdrop-blur-[2px] bgVideo rounded ">
+        <Image src={Logo} alt="Sorridents" className="mt-[150px] w-[200px]" />
         <div className="flex items-center lg:items-center flex-col gap-10">
           <h1 className="font-sans lg:text-6xl lg:text-left text-5xl font-bold text-center">
             Entre em contato 

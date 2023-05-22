@@ -35,14 +35,14 @@ export default function SliderCirurgia() {
         modules={[Autoplay, Navigation]}
         className="mySwiper w-auto rounded-full border-4 animate-neon-pulse"
       >
-        <SwiperSlide> <Image src={infra1} alt="imagem infraestrutura mira" className="rounded-full" /> </SwiperSlide>
+        <SwiperSlide> <Image src={infra1} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
         <SwiperSlide> <Image src={infra2} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
         <SwiperSlide> <Image src={infra3} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
         <SwiperSlide> <Image src={infra4} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
-        <SwiperSlide> <Image src={infra5} alt="imagem infraestrutura mira" /> </SwiperSlide>
-        <SwiperSlide> <Image src={infra6} alt="imagem infraestrutura mira" /> </SwiperSlide>
-        <SwiperSlide> <Image src={infra7} alt="imagem infraestrutura mira" /> </SwiperSlide>
-        <SwiperSlide> <Image src={infra8} alt="imagem infraestrutura mira" /> </SwiperSlide>
+        <SwiperSlide> <Image src={infra5} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
+        <SwiperSlide> <Image src={infra6} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
+        <SwiperSlide> <Image src={infra7} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
+        <SwiperSlide> <Image src={infra8} alt="imagem infraestrutura mira" className="rounded-full"/> </SwiperSlide>
       </Swiper>
     </>
   );
