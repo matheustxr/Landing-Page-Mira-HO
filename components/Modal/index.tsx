@@ -15,9 +15,9 @@ const customModalStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "70%",
+    width: "90%",
     maxWidth: "800px",
-    maxHeight: "80vh",
+    maxHeight: "100vh",
     border: "none",
     borderRadius: "10px",
     overflow: "hidden",
@@ -41,11 +41,11 @@ export default function VideoModal({ videoUrl }: VideoModalProps) {
 
   return (
     <>
-      <button onClick={openModal} className="rounded-full border-4 animate-neon-pulse">
+      <button onClick={openModal} >
         <FontAwesomeIcon
           icon={faCirclePlay}
-          beat
-          className="text-[#dc1a83] text-[50px] absolute bottom-[52%] left-[23%] lg:left-[44%] bg-slate-950 rounded-full"
+          
+          className="text-slate-950 text-[50px] absolute bottom-[52%] left-[21%] lg:left-[44%] rounded-full border-4 animate-neon-pulse"
         />
       </button>
 
