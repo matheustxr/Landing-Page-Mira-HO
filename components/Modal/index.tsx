@@ -9,7 +9,7 @@ export default function ModalVideo(){
     return(
         <>
             <button>
-              <FontAwesomeIcon icon={faCirclePlay} beat  className='text-[#dc1a83] text-[50px] absolute bottom-[52%] left-[23%] lg:left-[44%] bg-slate-950 rounded-full' />
+              <FontAwesomeIcon icon={faCirclePlay} beat  className='text-[#dc1a83] text-[50px] absolute bottom-[55%] left-[23%] lg:left-[44%] bg-slate-950 rounded-full' />
             </button>
         </>
     )
