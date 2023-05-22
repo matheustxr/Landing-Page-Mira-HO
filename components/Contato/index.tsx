@@ -14,7 +14,7 @@ export default function Contato(){
                 <div className="w-full flex flex-1 py-20 lg:ps-40 lg:pt-20 lg:pb-20 flex-col items-center lg:items-start">
                     <Image src={Logo} alt="Sorridents" className="w-[200px]" />
                     <p className="text-[20px] mb-14 text-center">Transformando sua forma de enxergar</p>
-                    <h2 className="lg:text-5xl text-2xl font-semibold mb-8 text-center">Entre em Contato com o Mira</h2>
+                    <h2 className="lg:text-5xl text-2xl font-semibold mb-8 text-center md:text-left">Entre em Contato com o Mira</h2>
                     <h3 className="lg:text-4xl text-sm">Consultas, Exames e Cirurgias Oftalmológicas</h3>
                     <a href="#" className="" >
                         <button className="p-4 mt-10 w-full min-w-[360px] lg:min-w-[370px] flex items-center justify-center rounded-xl text-xl font-semibold bg-[#00000061] border-4 animate-neon-pulse px-10">
