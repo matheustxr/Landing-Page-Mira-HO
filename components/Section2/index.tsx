@@ -19,11 +19,11 @@ export const Section2 = () => {
           </p>
         </div>
 
-        <div className="relative">
+        <div className="relative flex">
           <Image
             src={medDesk}
             alt="Sorridents"
-            className="w-[800px]  hidden lg:block"
+            className="w-[800px]  hidden lg:block bottom-0"
           />
           <Image src={medMob} alt="Sorridents" className=" lg:hidden" />
           <VideoModal videoUrl="https://www.youtube.com/embed/uyFBUvj0XQA" />

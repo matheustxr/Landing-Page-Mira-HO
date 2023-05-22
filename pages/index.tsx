@@ -20,10 +20,7 @@ export default function Home() {
       <div className='bg-gradient-to-r from-[#1539f1] to-[#020317] animateGradientX'>
         <Contato/>
       </div>
-<<<<<<< HEAD
       <Section6></Section6>
-=======
->>>>>>> 311076f97efe34dcfb9f8d3a164d297db3d690a4
       <Footer/>
    </div>
   )
